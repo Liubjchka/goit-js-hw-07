@@ -122,4 +122,36 @@ letter-spacing: 0.04em;
 
 /* task-5 */
 
+.widget{
+width: 345px;
+display: inline-flex;
+padding: 100px 88px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 8px;
+background: #FFF;
+}
+
+p{
+margin: 0;
+}
+
+.change-color{
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #4E75FF;
+}
+
+button{}
+
 /* task-6 */
