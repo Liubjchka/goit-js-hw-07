@@ -1,12 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const nameInput = document.getElementById('name-input');
-    const nameOutput = document.getElementById('name-output');
+document.addEventListener("DOMContentLoaded", function () {
+  const nameInputEl = document.getElementById("name-input");
+  const nameOutputEl = document.getElementById("name-output");
 
-    nameInput.addEventListener('input', function () {
-        const enterName = nameInput.value.trim();
-        if (enterName === '') {
-            nameOutput.textContent = 'Anonymous'
-        } else { nameOutput.textContent = enterName;
-        }
-    })
-})
+  nameInputEl.addEventListener("input", function () {
+    const enterName = nameInputEl.value.trim();
+    if (enterName === "") {
+      nameOutputEl.textContent = "Anonymous";
+    } else {
+      nameOutputEl.textContent = enterName;
+    }
+  });
+});
