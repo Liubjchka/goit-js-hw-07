@@ -67,10 +67,10 @@ padding: 0;
 /* task-2 */
 
 .gallery {
-display: flex;
-flex-wrap: wrap;
 width: 1440px;
 height: 848px;
+display: flex;
+flex-wrap: wrap;
 padding: 100px 156px;
 gap: 48px 24px;
 }
@@ -79,10 +79,12 @@ li.gallery-item {
 
 }
 
+ul.gallery {
+}
+
 .gallery-item {
 width: 360px;
 height: 300px;
-flex-shrink: 0;
 border: none;
 }
 
@@ -93,3 +95,31 @@ object-fit: cover;
 }
 
 /* task-3 */
+
+input {
+width: 360px;
+height: 40px;
+padding: 8px 16px;
+}
+
+#name-input{
+color: #2E2F42;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+h1{
+color: #2E2F42;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.33;
+letter-spacing: 0.04em;
+}
+
+/* task-4 */
+
+/* task-5 */
+
+/* task-6 */
