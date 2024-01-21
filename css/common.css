@@ -127,6 +127,7 @@ h1 {
   gap: 16px;
   width: 408px;
 }
+
 label {
   color: #2e2f42;
   font-size: 16px;
@@ -193,9 +194,6 @@ p {
   gap: 10px;
   border-radius: 8px;
   background: #4e75ff;
-}
-
-button {
 }
 
 /* task-6 */
