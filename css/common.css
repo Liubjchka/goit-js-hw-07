@@ -199,3 +199,35 @@ button {
 }
 
 /* task-6 */
+
+#controls {
+  width: 486px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  padding: 32px;
+  width: 486px;
+}
+
+button {
+  width: 120px;
+}
